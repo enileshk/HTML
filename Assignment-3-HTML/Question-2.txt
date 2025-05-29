@@ -1,0 +1,15 @@
+Entities in HTML are special codes used to represent characters that either have special meaning in HTML syntax or are not readily available on a keyboard. 
+Generally used for:
+  Display reserved characters (like <, >, &, etc.).
+  Represent invisible or non-breaking spaces.
+  Display special symbols or special characters.
+
+Entities begin with an ampersand (&) and end with a semicolon (;).
+
+Common entities used in HTML are listed below:
+&nbps; - used for adding extra spaces (since HTML wraps sequence of spaces to single space)
+&amp; - For symbol '&' 
+&lt -  For symbol '<'
+&gt - Fo symbol '>'
+&quot; -  For quotation mark 
+*apos; - For apostrophe

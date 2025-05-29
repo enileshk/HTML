@@ -1,0 +1,10 @@
+DOCTYPE stands for ‘Document Type Declaration’. It is used to specify the browser 
+About HTML version used so that browser can display the HTML content as per 
+Standard specifications.
+HTML code should start with DOCTYPE on first line (before rest of tags/structure).
+
+In HTML5, the DOCTYPE declaration is specified in simple way:
+<!DOCTYPE html>
+
+DOCTYPE is not a HTML tag, rather it is a specification to instruct browser about 
+HTML version.

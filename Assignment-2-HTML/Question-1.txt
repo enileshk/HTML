@@ -1,0 +1,7 @@
+Features of HTML5 are listed below:
+   1. Semantic Elements - Introduced semantic tags - Provide meaningful structure to HTML documents, improving accessibility and SEO.
+      e.g. <header>, <footer>, <article>, <section>, <nav>, <aside>, <main>, <figure>
+   2. Enhanced multi-media support - introduced <audio> and <video> tags, supporting extensive multimedia formats
+   3. Enhanced support for graphics - SVG and Canvas tags
+   4. Doctype Simplification - Simple declaration for DOCTYPE - <!DOCTYPE>
+   5. Improved Accessibility - Better support for screen readers & assistive technologies via semantic tags & ARIA roles.

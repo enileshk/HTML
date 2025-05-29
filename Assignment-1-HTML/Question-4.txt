@@ -1,0 +1,16 @@
+Tag:
+Tag is a keyword in HTML and enclosed in angle bracket (< & >). Tag is used to define HTML elements. There are 2 types of tags:
+Non-Self closing tag: These tags require data between angle brackets and ‘<tag-name>‘ bracket used to start the tag and ‘</tag-name>’ used to close the tag. 
+For example: <h1> This is Heading 1 </h1>
+Self closing tag: These tags do not need closure of tag and data is within first pair of angle brackets
+For example: <img src="image.jpg" />
+
+Element:
+Element is all the details starting from opening of tag, data in between and closure of the tag. Elements are building blocks of HTML document and defines structure of HTML document. 
+For example:
+For a line in HTML: <p>This is sample paragraph</p>, the element contains:
+<p> is the opening tag. 
+“This is sample paragraph” is the content.
+</p> is the closing tag. 
+The entire line of code is an HTML element.
+

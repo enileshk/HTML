@@ -1,0 +1,6 @@
+Options/ways to improve accessibility of HTML are listed:
+1. Use Semantic tags like <header>, <main>, <nav>, <footer>, <section>, and <article> to provide meaningful structure
+2. Use <h1> to <h6> tags in logical order to represent content hierarchy
+3. Ensure Full Keyboard Navigation - for interactive elements (links, buttons, forms) should be accessible via tab/enter/space keys
+4. Add alt text to images 
+5. Consistant navigaion across the page and simple layout to navigate

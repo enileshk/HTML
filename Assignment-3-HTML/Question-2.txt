@@ -12,4 +12,4 @@ Common entities used in HTML are listed below:
 &lt -  For symbol '<'
 &gt - Fo symbol '>'
 &quot; -  For quotation mark 
-*apos; - For apostrophe
+&apos; - For apostrophe

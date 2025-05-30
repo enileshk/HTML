@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BEM Paragraph Example</title>
+
+  <style>
+    /* Block: article */
+
+    .article__paragraph {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin-bottom: 1em;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    /* Modifier: intro */
+    .article__paragraph--intro {
+      background-color: #e3f2fd;
+      color: #0d47a1;
+      font-weight: bold;
+    }
+
+    /* Modifier: highlight */
+    .article__paragraph--highlight {
+      background-color: #fff3e0;
+      color: #e65100;
+      font-style: italic;
+    }
+
+    /* Modifier: note */
+    .article__paragraph--note {
+      background-color: #f3e5f5;
+      color: #6a1b9a;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="article">
+    <p class="article__paragraph article__paragraph--intro">
+      This is paragraph number 1. This has unique class name and formating. This is intro paragraph.
+    </p>
+
+    <p class="article__paragraph article__paragraph--highlight">
+      This is paragraph number 2. This has unique class name and formating. This is highlight paragraph.    </p>
+
+    <p class="article__paragraph article__paragraph--note">
+      This is paragraph number 2. This has unique class name and formating. This is note paragraph.    </p>
+  </section>
+
+</body>
+</html>

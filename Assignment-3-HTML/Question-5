@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--Above is first feature of HTML5 which shows simplified DOCTYPE declaration in HTML5-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 with 3 features</title>
+</head>
+<header>Demostrating 3 features of HTML5 </header>
+<!--Above is second feature which shows new semantic tag header-->
+<body>
+    <h5>HTML form with inputs</h5>
+    <!-- This is third feature which shows new input types (email & telephone number)-->
+    <form action="">
+        <h6>Enter Email </h6>
+        <input type="email"> 
+        <br>
+        <h6>Enter Telephone number </h6>
+        <input type="tel">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

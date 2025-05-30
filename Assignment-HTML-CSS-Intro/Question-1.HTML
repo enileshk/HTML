@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Types Example</title> 
+    <!-- External CSS below -->
+    <link rel="stylesheet" href="style.css" /> 
+    <!-- Internal CSS below -->
+    <style>
+        .internal-style {
+            background-color: lightgreen;
+            color: darkgreen;
+            padding: 15px;
+            margin-bottom: 10px;
+            border: 1px dashed #000;
+        }
+    </style>
+</head>
+
+<body> 
+    <!-- External CSS applied below -->
+    <div class="external-style"> This div uses external CSS. </div> 
+    <!-- Internal CSS applied below -->
+    <div class="internal-style"> This div uses internal CSS. </div> 
+    <!-- Inline CSS applied below -->
+    <div
+        style="background-color: lightcoral; color: white; padding: 15px; margin-bottom: 10px; border: 1px dotted #000;">
+        This div uses inline CSS. </div>
+</body>
+
+</html>

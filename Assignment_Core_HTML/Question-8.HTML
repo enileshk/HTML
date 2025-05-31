@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conference Schedule</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Conference Schedule</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Room 1</th>
+            <th>Room 2</th>
+            <th>Room 3</th>
+            <th>Room 4</th>
+        </tr>
+        <tr>
+            <td>9:00 AM - 10:00 AM</td>
+            <td rowspan="2">Workshop: HTML Basics</td>
+            <td>Talk: CSS Grid</td>
+            <td colspan="2">Keynote: Future of Web Dev</td>
+        </tr>
+        <tr>
+            <td>10:00 AM - 11:00 AM</td>
+            <td>Talk: Flexbox Deep Dive</td>
+            <td>Break</td>
+            <td>Panel: UI/UX Trends</td>
+        </tr>
+        <tr>
+            <td>11:00 AM - 12:30 PM</td>
+            <td colspan="2">Workshop: JavaScript for Beginners</td>
+            <td colspan="2">Session: Backend with Node.js</td>
+        </tr>
+    </table>
+</body>
+</html>

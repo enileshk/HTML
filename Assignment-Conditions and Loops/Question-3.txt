@@ -1,0 +1,45 @@
+In JavaScript, loops are control structures that repeatedly execute a block of code as long as a specified condition is true.
+
+Loops are used when you want to:
+
+Perform the same task multiple times without rewriting the code.
+
+Iterate over data structures like arrays or objects.
+
+Automate repetitive tasks efficiently.
+
+Type of Loops in JavaScript:
+for Loop - Used when the number of iterations is known.
+e.g.
+for (let i = 1; i <= 5; i++) {
+  console.log("Count: " + i);
+}
+
+while Loop - Used when the number of iterations is not known in advance.
+let i = 1;
+while (i <= 3) {
+  console.log("Hello");
+  i++;
+}
+
+do...while Loop - Executes the block at least once, then checks the condition
+e.g.
+let i = 1;
+do {
+  console.log("Run at least once");
+  i++;
+} while (i < 1);
+
+for...of Loop - Used to loop through iterable values like arrays.
+e.g.
+let colors = ["red", "green", "blue"];
+for (let color of colors) {
+  console.log(color);
+}
+
+for...in Loop - Used to loop through properties of an object.
+e.g.
+let person = { name: "John", age: 30 };
+for (let key in person) {
+  console.log(key + ": " + person[key]);
+}

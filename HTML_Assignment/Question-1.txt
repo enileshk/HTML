@@ -1,0 +1,15 @@
+Question 1- What is HTML - and explain it's purpose in web development
+
+HTML stands for HyperText Markup Language. It is the standard language used to create and structure content on the web.
+HTML is not a programming language; it's a markup language that uses tags to define elements within a webpage. 
+These tags tell the browser how to display text, images, links, tables, and other content.
+
+Purpose of HTML in Web Development:
+Structure the Webpage: HTML provides the basic skeleton of a webpage. It organizes content into headings, paragraphs, lists, sections, and more.
+Embed Content: HTML allows embedding of images, audio, video, and other multimedia content.
+Create Links: Hypertext refers to the ability to link to other pages or websites.
+Enable User Interaction:HTML supports forms and input fields for user interaction (e.g., search boxes, contact forms).
+integrate with other technologies - 
+CSS (Cascading Style Sheets) for styling.
+JavaScript for interactivity.
+HTML acts as the foundation that CSS and JavaScript build upon.

@@ -1,0 +1,2 @@
+HTML attributes provide additional information about elements and modify their behavior or appearance. They are written inside the opening tag and usually come in name="value" pairs.
+They modify elements by setting properties like size, links, IDs, classes, styles, and behavior (e.g., disabled, checked).

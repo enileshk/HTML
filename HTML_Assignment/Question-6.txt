@@ -1,0 +1,12 @@
+Difference between span and div element:
+
+| Feature            | <div> (Block-Level)                      | <span> (Inline-Level)                        |
+| ------------------ | ---------------------------------------- | -------------------------------------------- |
+| Display Type       | Block-level element                      | Inline-level element                         |
+| Starts on New Line | Yes                                      | No                                           |
+| Width Behavior     | Expands to fill the full width           | Expands only to fit its content              |
+| Can Contain        | Block and inline elements                | Only text or other inline elements           |
+| Common Usage       | Layout and grouping large content blocks | Styling or formatting small portions of text |
+
+<div> used when need to group elements into a block for layout purposes (like sections, containers, headers, footers).
+<span> used when need to style or manipulate a small part of inline content (like a word or phrase in a paragraph).

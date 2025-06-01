@@ -1,0 +1,6 @@
+The <meta> tag in HTML is used to provide metadata about the webpage. Metadata is information about the data on the page — it helps browsers, search engines, and other services understand how to handle or display the content.
+Define character encoding - Ensures text is displayed correctly, especially for non-English characters.
+Control viewport settings for responsive design - Helps ensure your website looks good on mobile devices.
+Provide page description (for SEO) - Used by search engines to display a summary in search results.
+
+Common Placement: All <meta> tags are placed inside the <head> section of an HTML document.

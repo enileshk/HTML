@@ -1,0 +1,8 @@
+Difference between implicit type conversion & explicit type conversion in JavaScript:
+
+| Feature        | Implicit Conversion                         | Explicit Conversion                           |
+| -------------- | ------------------------------------------- | -----------------------------------------     |
+| Triggered By   | JavaScript engine automatically             | Developer writes code to convert manually     |
+| Common Methods | Occurs during operations (+, ==, etc.)      | Use typecase function like Number(), String() |
+| Control        | Less control – may cause unexpected results | More control – clearer and safer              |
+| Example        | '5' + 1 → "51" (Number to String)           | Number('5') → 5 (String to Number)            |

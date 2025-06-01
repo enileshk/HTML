@@ -1,0 +1,7 @@
+The alt attribute provides a textual description of an image, which is displayed if the image cannot be loaded or seen.
+How it helps SEO and accessibility:
+| Benefit          | How alt Helps                                    |
+| ---------------- | ------------------------------------------------ |
+| Accessibility    | Enables screen readers to convey image meaning   |
+| SEO              | Helps search engines index and rank your content |
+| Fallback Content | Provides context when the image fails to load    |

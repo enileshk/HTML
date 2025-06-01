@@ -1,0 +1,11 @@
+Question 2- What is semantic tags, explain 3 semantic tag and their significance:
+
+A semantic tag in HTML is an element that clearly describes its meaning to both the browser and the developer. Unlike non-semantic tags (like <div> or <span>), semantic tags give context about the content they enclose, improving code readability, accessibility, and SEO (Search Engine Optimization).
+Semantic tags helps:
+Improve accessibility for screen readers and assistive technologies.
+Help search engines understand the structure and importance of content.
+Make your code more readable and maintainable.
+Examples:
+<header> - Represents the introductory content or navigational links of a section or the entire page. - Often contains logo, site name, and main navigation.
+<article> - Represents a self-contained piece of content that could stand alone (e.g., blog post, news article).
+<footer> - Represents the footer of a section or the entire page, often containing contact info, copyright, or links.

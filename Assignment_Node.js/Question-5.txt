@@ -1,0 +1,14 @@
+Q5 - OS module in Node.js
+5.1 What is OS module in node.js
+
+The OS module in Node.js is a built-in module that provides operating system-related utility methods and properties. It allows you to interact with and retrieve information about the system on which the Node.js process is running.
+
+5.2 write a node.js script that logs systems total memory and free memory using OS module:
+
+const os = require('os');
+
+const totalMemory = os.totalmem();
+const freeMemory = os.freemem();
+
+console.log(`Total Memory: ${totalMemory} bytes`);
+console.log(`Free Memory: ${freeMemory} bytes`);

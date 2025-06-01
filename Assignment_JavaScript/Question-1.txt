@@ -1,0 +1,13 @@
+Differences between HTML and Javscript with use case:
+
+| Feature       | HTML (HyperText Markup Language)                | JavaScript                                             |
+| ------------- | ----------------------------------------------- | ------------------------------------------------------ |
+| Purpose       | Defines the structure and content of a web page | Adds interactivity and behavior to a web page          |
+| Type          | Markup language                                 | Programming language                                   |
+| Execution     | Parsed by the browser to render layout          | Executed by the browser’s JavaScript engine            |
+| Syntax        | Uses tags like <div>, <h1>, <img>               | Uses programming syntax (variables, functions, etc.)   |
+| Interactivity | Static — no user interaction logic              | Dynamic — handles events like clicks, form submissions |
+| Dependencies  | Works without JavaScript                        | Depends on HTML/CSS for context                        |
+| Use-case      | Define the layout of a webpage                  | Add interactivity & dynamic content to web pages       |
+
+

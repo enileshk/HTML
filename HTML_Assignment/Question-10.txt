@@ -1,0 +1,9 @@
+Difference between Absolute & relative URL listed below:
+
+| Feature            | Absolute URL                                          | Relative URL                        |
+| ------------------ | ---------------------------------------------         | ---------------------------------   |
+| Definition         | Full path to a resource including domain name         | Path relative to the current page   |
+| Includes Protocol? | Yes (e.g., https\://)                                 | No                                  |
+| Portable?          | No — fixed to a specific domain                       | Yes — works within the same site    |
+| Common Use         | Linking to external websites or domains               | Linking to internal files/pages     |
+| Example            | <a href="https://www.google.com">Visit Google</a>     | <a href="/about.html">About Us</a>  |

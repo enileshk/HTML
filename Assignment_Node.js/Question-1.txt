@@ -1,0 +1,54 @@
+Q1: Describe node.js architecture and working:
+ 1.1 Describe single threaded, event driven architecture of node.js
+Node.js uses a single-threaded, event-driven architecture that allows it to handle many concurrent connections efficiently, without the overhead of traditional multi-threaded models. Here's a clear breakdown of how this architecture works:
+
+Single-threaded
+
+Node.js runs on a single thread using the V8 JavaScript engine.
+
+That thread is responsible for handling all application-level logic.
+
+It does not spawn new threads for each client request (unlike traditional servers like Apache).
+
+Event-driven
+
+Node.js operates on an event loop.
+
+Instead of blocking execution for time-consuming operations (like reading files or accessing databases), Node.js registers a callback and moves on.
+
+When the operation completes, the callback is pushed to the event queue to be executed.
+
+Non-blocking I/O
+
+Input/Output (file, network, etc.) operations are asynchronous by default.
+
+Node.js delegates these tasks to the operating system or a thread pool, which handles them in the background.
+
+1.2 why this architecture is suitable for I/
+Non-blocking Asynchronous I/O
+When performing I/O operations (reading files, querying databases, network requests), Node.js doesn’t wait (block) for the operation to finish.
+
+Instead, it initiates the operation and immediately moves on to handle other tasks.
+
+When the I/O operation completes, a callback is triggered to process the result.
+
+This means the CPU is free to handle many other requests while waiting for I/O.
+
+Efficient Resource Usage
+Traditional servers often spawn a new thread or process per client connection.
+
+Threads consume significant system resources (memory and CPU for context switching).
+
+Node.js uses a single thread and an event loop, which drastically reduces overhead.
+
+This lightweight model can handle thousands of concurrent connections with minimal resources.
+
+Event Loop Enables High Concurrency
+The event loop continuously polls for completed asynchronous operations and executes their callbacks.
+
+This allows Node.js to efficiently manage many simultaneous I/O tasks without creating multiple threads.
+
+Avoids Threading Complexity
+Multi-threaded models need complex locking and synchronization to prevent race conditions.
+
+Node.js’s single thread avoids this complexity, making code easier to write and less prone to concurrency bugs — especially for I/O tasks. heavy applications

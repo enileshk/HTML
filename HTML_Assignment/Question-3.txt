@@ -1,0 +1,6 @@
+Difference between block level and inline elements with example:
+Feature	         Block-Level Element	          Inline Element
+Line Break	     Starts on a new line	          Stays on the same line
+Width	           Fills full width by default	  Width = content width
+Can contain...   Block & inline elements	      Only inline elements
+Example	         <div>, <p>, <section>        	<span>, <a>, <strong>

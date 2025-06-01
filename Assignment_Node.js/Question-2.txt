@@ -1,0 +1,18 @@
+Q2: Understanding Node.js module system:
+
+2.1 What is Node.js module system
+Node.js module system is a way to organize and reuse code by encapsulating functionality into separate files (modules), which can be imported (require or import) and exported, enabling modular development.
+
+2.2 How are module created and loaded in Node.js
+n Node.js, modules are created by writing code in separate files and exporting parts (functions, objects, variables) using module. exports or exports. They are loaded using require() (CommonJS) or import (ES Modules), which reads, executes the module file, and returns the exported content. Node.js caches modules after loading to improve performance.
+
+2.3 Create a simple module math.js that export a function to add 2 numbers and demonstrate
+// math.js
+function add(a, b) {
+  return a + b;
+}
+module.exports = { add };
+
+Demonstration: (from another .js file)
+const math = require('./math');
+console.log(math.add(5, 3));  // Output: 8

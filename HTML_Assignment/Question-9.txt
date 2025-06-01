@@ -1,0 +1,8 @@
+Example of HTML tag with attribute:
+<img src="photo.jpg" alt="A beautiful landscape">
+
+<img> is the tag used to display an image.
+
+src is the attribute specifying the image file location.
+
+alt is the attribute providing alternative text if the image can't be displayed.

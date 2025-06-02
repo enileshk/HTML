@@ -9,12 +9,11 @@ const greeting2 = generateGreeting("Nikhil");
 const greeting3 = generateGreeting("Abir");
 
 // Display the greetings
-console.log(greeting1);
-console.log(greeting2);
-console.log(greeting3);
+console.log(greeting1); //Hello, Nilesh! Welcome to our website.
+console.log(greeting2); //Hello, Nikhil! Welcome to our website.
+console.log(greeting3); //Hello, Abir! Welcome to our website.
 
-Output:
 
-Hello, Nilesh! Welcome to our website.
-Hello, Nikhil! Welcome to our website.
-Hello, Abir! Welcome to our website.
+
+
+
